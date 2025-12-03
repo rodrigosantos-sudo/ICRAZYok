@@ -137,3 +137,11 @@ export default defineConfig({
     "@types/react-dom": "^18.2.22"
   }
 }
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
